@@ -15,10 +15,10 @@
 
         function setup() {
             createCanvas(windowWidth,windowHeight);
-         x = random(windowHeight);
-         y = random (windowWidth);
+            x = random(windowHeight);
+            y = random(windowWidth);
         }  
-           function draw() {
+        function draw() {
             background(0);
             fill(0,50,255);
             ellipse(x, y, radius*2, radius*2);
@@ -32,8 +32,8 @@
             }
         }
         function newCircle() {
-            x = random(windowHeight-10);
-            y = random(windowWidth-10);
+            x = random(windowHeight);
+            y = random(windowWidth);
         }
     </script>
 </body>
